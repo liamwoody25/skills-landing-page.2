@@ -143,6 +143,13 @@ body{
     color: #f02AA6;
 }
 
+.content-icon{
+    width: 56px;
+    height: 56px;
+    position: relative;
+    top: 15px;
+}
+
 /********* footer section *******/
 .footer-section{
     display: flex;
