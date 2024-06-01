@@ -23,10 +23,10 @@ body{
 .nav-bar{
   display: flex;
   flex-wrap: wrap;
-
+  position: relative;
   justify-content:space-between;
   top: 25px;
-  padding-right: 200px;
+  padding-right: 150px;
 
 }
 
@@ -49,15 +49,16 @@ body{
 /*.img{
     display: flex;
     float: right;
-    position: absolute;
+    position: relative;
     right: -106px;
-    top: -35px;
+    top: -75px;
     width: 850px;
 }
 
 /******** intro-section ******/
 
 .intro-body{
+    padding-top: 10%;
   display: flex;
   flex-wrap: wrap;
   padding-left: 150px;
@@ -88,7 +89,7 @@ body{
 /********** courses-section ********/
 .course-section{
     padding-left: 150px;
-    padding-top: 25px;
+    padding-top: 20%;
     background-image: linear-gradient(#ffff,#f0f1ff);
 }
 .course-cards{
