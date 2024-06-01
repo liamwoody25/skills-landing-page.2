@@ -1,0 +1,170 @@
+/******** General *********/
+:root{
+    --main-color:#f02AA6,#ff6f48;
+    --second-color:#13183f;
+    --lg-color:#ffff,#f0f1ff;
+}
+
+* {
+    font-family: 'plus Jakarta',sans-serif;
+}
+
+body{
+    
+    margin: 0%;
+}
+
+.main-container{
+
+  
+}
+
+/****** header ******/
+.nav-bar{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content:space-between;
+  top: 25px;
+  padding-right: 200px;
+
+}
+
+
+.logo{
+    padding-left: 200px;
+    width: 111px;
+    height: 27px;
+}
+.header-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color: var(--second-color);
+    color: #fff;
+    font-size: 18px;
+}
+
+/*.img{
+    display: flex;
+    float: right;
+    position: absolute;
+    right: -106px;
+    top: -35px;
+    width: 850px;
+}
+
+/******** intro-section ******/
+
+.intro-body{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 200px;
+}
+
+.title{
+    font-size: 56px;
+    width: 60%;
+}
+
+.subtext{
+    font-size: medium;
+    color: #83869A;
+    width: 40%;
+}
+
+.intro-btn{
+    width: 167px;
+    height: 63px;
+    border-radius: 30px;
+    border: 0;
+    background-image: linear-gradient(#ff6f48,#f02AA6);
+    color: #fff;
+    font-size: 18px;
+
+}
+
+/********** courses-section ********/
+.course-section{
+    padding-left: 150px;
+    padding-top: 25px;
+    background-image: linear-gradient(#ffff,#f0f1ff);
+}
+.course-cards{
+    display: flex;
+    flex-wrap: wrap;
+    left: 320px;
+    padding-top: 50px;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.card-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    font-size: 32px;
+    background-image:linear-gradient(#f02AA6,#ff6f48);
+    border-radius: 15px;
+    height: 322px;
+    padding-left: 26px;
+    color: #fff;
+}
+
+.course-cards .card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 350px;
+    background-color: #fff;
+    height: 346px;
+    box-shadow: 0 10px 10px #f0f1ff;
+}
+
+.card-content{
+    position: relative;
+    top: 40px;
+    line-height: 28px;
+    padding: 15px;
+}
+
+.content-title{
+    font-size: 24px;
+}
+
+.content-text{
+    color: #83869A;
+
+}
+
+.text-styling {
+    text-decoration: none;
+    color: #f02AA6;
+}
+
+/********* footer section *******/
+.footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #13183f;
+    padding-right:150px;
+}
+
+.logo-light{
+    padding-left: 150px;
+    width: 111px;
+    height:27px ;
+}
+
+.footer-btn{
+    width: 167px;
+    height: 56px;
+    border-radius: 30px;
+    background-image: linear-gradient(#4851ff,#f02AA6);
+    color: #fff;
+    border: 0;
+}
