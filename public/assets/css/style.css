@@ -10,14 +10,11 @@
 }
 
 body{
-    
+    padding: 0;
     margin: 0%;
 }
 
-.main-container{
 
-  
-}
 
 /****** header ******/
 .nav-bar{
@@ -88,7 +85,7 @@ body{
 
 /********** courses-section ********/
 .course-section{
-    padding-left: 150px;
+    padding-left: 120px;
     padding-top: 20%;
     background-image: linear-gradient(#ffff,#f0f1ff);
 }
@@ -104,12 +101,12 @@ body{
 .card-1{
     display: flex;
     flex-wrap: wrap;
-    width: 320px;
+    width: 350px;
     font-size: 32px;
     background-image:linear-gradient(#f02AA6,#ff6f48);
     border-radius: 15px;
     height: 322px;
-    padding-left: 26px;
+    padding-left: 20px;
     color: #fff;
 }
 
@@ -119,7 +116,7 @@ body{
     border-radius: 15px;
     width: 350px;
     background-color: #fff;
-    height: 346px;
+    height: 322px;
     box-shadow: 0 10px 10px #f0f1ff;
 }
 
