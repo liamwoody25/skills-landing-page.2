@@ -46,12 +46,11 @@ body{
     font-size: 18px;
 }
 
-img{
+/*img{
     display: flex;
     float: right;
     position: relative;
-    right: 0;
-    top: 0;
+    bottom: 25px;
     width: 850px;
 }
 
@@ -143,13 +142,12 @@ img{
 }
 
 .content-icon{
+    display: flex;
+    right: 270px;
     position: absolute;
-    bottom: 50px;
-    top:15px;
-    width: 56px;
+    width: 66px;
     height: 56px;
-    top: 15px;
-    z-index: inherit;
+    top: 250px;
 }
 
 /********* footer section *******/
