@@ -14,7 +14,10 @@ body{
     margin: 0%;
 }
 
-
+.main-container{
+    width: 100%;
+    max-width: 1440px;
+}
 
 /****** header ******/
 .nav-bar{
@@ -43,12 +46,12 @@ body{
     font-size: 18px;
 }
 
-/*.img{
+img{
     display: flex;
     float: right;
     position: relative;
-    right: -106px;
-    top: -75px;
+    right: 0;
+    top: 0;
     width: 850px;
 }
 
@@ -92,27 +95,24 @@ body{
 .course-cards{
     display: flex;
     flex-wrap: wrap;
-    left: 320px;
     padding-top: 50px;
     gap: 30px;
     padding-bottom: 50px;
+    padding-left: 40px;
 }
 
 .card-1{
-    display: flex;
-    flex-wrap: wrap;
-    width: 350px;
+    width: 340px;
     font-size: 32px;
     background-image:linear-gradient(#f02AA6,#ff6f48);
     border-radius: 15px;
     height: 322px;
     padding-left: 20px;
     color: #fff;
+    line-height: 40px;
 }
 
 .course-cards .card{
-    display: flex;
-    flex-direction: column;
     border-radius: 15px;
     width: 350px;
     background-color: #fff;
@@ -124,7 +124,7 @@ body{
     position: relative;
     top: 40px;
     line-height: 28px;
-    padding: 15px;
+    padding: 30px;
 }
 
 .content-title{
@@ -137,14 +137,19 @@ body{
 }
 
 .text-styling {
+    top: 35px;
     text-decoration: none;
     color: #f02AA6;
 }
 
 .content-icon{
+    position: absolute;
+    bottom: 50px;
+    top:15px;
     width: 56px;
     height: 56px;
     top: 15px;
+    z-index: inherit;
 }
 
 /********* footer section *******/
